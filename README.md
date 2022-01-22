@@ -1,3 +1,3 @@
 # Cube-Rotation
-in it box is rotating in y and z direction
+In it box is rotating in y and z direction.
 By pressing and holding Spacebar box size will increase and when you release Spacebar box will revert back to its orignal Size....
