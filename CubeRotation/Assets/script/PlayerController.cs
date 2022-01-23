@@ -32,6 +32,13 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
             transform.localScale += scale;
         if (Input.GetKeyUp(KeyCode.Space))
-            transform.localScale = orignalScale;
+        {
+            while(transform.localScale.x>orignalScale.x&&transform.localScale.y>orignalScale.y&&transform.localScale.z>orignalScale.z)
+            {
+                transform.localScale -=scale*0.003f;
+              
+            }
+        }
+            //transform.localScale = orignalScale;
     }
 }
